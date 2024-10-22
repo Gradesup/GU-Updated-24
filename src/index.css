@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Kanit;
+  src: url(./assets/fonts/Kanit/Kanit-Regular.woff2) format('woff2') ;
+  font-display: swap;
+ }
+ @font-face {
+  font-family: 'Tenor';
+  src: url(./assets/fonts/Tenor-Sans/TenorSans-Regular.woff2) format('woff2') ;
+  font-display: swap;
+ }
+ 
+ * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+ html{
+  width: 100%;
+    overflow-x: hidden;
+ }
+ body {
+  overflow-x: hidden;
+  font-family: 'Tenor', sans-serif;
+ }
+ /* Input Type Number Hide Arrow */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+ }
+ /*  */
+ /* image non-dragable */
+ 
+ img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+ }
+ 
+ /*  */
+ 
+ a {
+  text-decoration: none;
+ }
+ a:not([href]):not([class]), a:not([href]):not([class]):hover {
+  color: #000;
+  color: initial;
+  cursor: pointer;
+}
+ p {
+  margin: 0 ;
+ }
+ h1,h2,h3,h4,h5,h6{
+  margin: 0;
+ }
+ .text-right{
+  text-align: right;
+ }
+ .ff-tenor {
+  font-family: 'Tenor', sans-serif;
+ }
+ .ff-kanit {
+  font-family: 'Kanit', sans-serif;
+ }
+ .mt-10{
+  margin-top: 10px;
+ }
+ .mt-20{
+  margin-top: 20px;
+ }
+ .gap-10 {
+  gap: 10px;
+ }
+ .gap-20 {
+  gap: 20px;
+ }
+ .fs-12 {
+  font-size: 12px;
+ }
+ .fs-14 {
+  font-size: 14px;
+ }
+ .fs-16 {
+  font-size: 16px;
+ }
+ .fs-18 {
+  font-size: 18px;
+ }
+ .fs-20 {
+  font-size: 20px;
+ }
+ .fs-22 {
+  font-size: 22px;
+ }
+ .fs-24 {
+  font-size: 24px;
+ }
+ .fs-26 {
+  font-size: 26px;
+ }
+ .fw-400 {
+  font-weight: 400;
+ }
+ .fw-600 {
+  font-weight: 600;
+ }
+ .fw-800 {
+  font-weight: 800;
+ }
+ .t-t-uppercase {
+  text-transform: uppercase;
+ }
+ .line-height-1 {
+  line-height: 1;
+ }
+ ul {
+  list-style-type: none;
+ } 

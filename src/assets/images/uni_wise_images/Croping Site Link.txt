@@ -1,0 +1,44 @@
+https://watermarkly.com/crop-photo/
+
+https://www.birme.net/?target_width=153&target_height=59
+https://compresspng.com/
+http://www.imageoptimizer.net/Home.aspx
+https://www.osano.com/cookieconsent/download/
+
+GDPR Web
+dataprotection.ie/en/individuals/data-protection-basics/principles-data-protection
+
+
+#964fc4
+
+
+
+linear-gradient(271deg,#743895e0, #000, #000) !important
+
+linear-gradient(90deg, #000, #743895e0, #000)
+
+
+
+
+#261332
+
+
+<?php require_once(".././admin/global.php");
+
+
+
+
+
+
+
+
+
+<?php
+$site_desc = "Hi There How Are You";
+$site_title = "Example";
+$site_name_sm = "Example";
+$site_name_cp = "EXAMPLE";
+$site_phone = "+923000000000";
+$whatsapp_num = "https://wa.link/01zol1";
+$site_email = "support@example.org";
+?>

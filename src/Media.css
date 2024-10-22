@@ -1,0 +1,1312 @@
+.medium-block {
+	display:none
+	}
+	
+	.message-mobile {
+	display:none
+	}
+	
+	@media only screen and (min-width: 1599px) {
+	.About-Img{
+		height: 440px;
+	}
+	.image-content{
+		height: 414px;
+	}
+	}
+	@media only screen and (max-width: 1599px) {
+	.header .navbarBtn button {
+	font-size:15px
+	}
+	
+	.topbar .container-fluid {
+	padding:0 60px
+	}
+	}
+	
+	@media only screen and (max-width: 1499px) {
+	.header .navbarBtn button {
+	font-size:14px;
+	padding: 10px 12px;
+	}
+	
+	.topbar .container-fluid {
+	padding:0 60px
+	}
+
+	}
+	
+	@media only screen and (max-width: 1399px) {
+		.testi-box {
+			height: 480px;
+		}
+
+	.tab button{
+	width: 170px;
+	}
+	.header .navbarBtn button {
+	font-size:13px;
+	padding:10px
+	}
+	
+	.topbar .gap-20 {
+	gap:10px
+	}
+	
+	.topbar .container-fluid {
+	padding:0 40px
+	}
+	
+	.bulletPoint i {
+	font-size:10px!important
+	}
+	
+	.mainBanner .bulletPoint p {
+	font-size:13px
+	}
+	
+	.button-div h6.PurpleBtn {
+	padding:5px 20px;
+	font-size:20px
+	}
+	
+	.PurpleBtn {
+	font-weight:700;
+	font-size:20px;
+	height:40px;
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	padding:10px 0
+	}
+	
+	.expertBtn img {
+	width:50px;
+	height:50px
+	}
+	
+	.expertBtn a {
+	height:35px;
+	text-align:center;
+	font-size:14px;
+	display:flex;
+	justify-content:center;
+	align-items:center
+	}
+	
+	img.bn-short-img {
+	width:40px;
+	height:auto
+	}
+	
+	.mainForm h6.PurpleBtn {
+	width:100%
+	}
+	
+	.service-content p {
+	height:110px
+	}
+
+	h5.fot-head-ofr span.highlight-head {
+	font-size: 40px;
+	}
+}
+	
+	@media only screen and (max-width: 1299px) {
+	.link a {
+	font-size:12px
+	}
+	
+	img.weather_iconn {
+	width:30%;
+	max-width:30%;
+	min-width:30%
+	}
+	
+	.weather p {
+	color:#fff;
+	font-family:'Tenor';
+	font-size:13px
+	}
+	
+	.header .navbarBtn button {
+	font-size:12px;
+	padding:10px
+	}
+	
+	.topbar .container-fluid {
+	padding:0 20px
+	}
+
+	.navlinks ul li a{
+	font-size: 14px;
+	}
+	}
+	
+	@media only screen and (max-width: 1199px) {
+	.button-div h6.PurpleBtn{
+	width: 100%;
+	}
+	.points .bannerPoint {
+	padding:0 10px
+	}
+	
+	.mainAboutSection .bannerPoint_Para {
+	font-size:12px
+	}
+	
+	.navlinks ul {
+	gap:10px
+	}
+	
+	.navlinks ul li a {
+	font-size:13px
+	}
+	
+	.mainForm {
+	width:80%
+	}
+	
+	.topbar p.ff-tenor {
+	font-size:13px
+	}
+	
+	.limited_time_offer p {
+	font-size:9px
+	}
+	
+	.topbar .container-fluid {
+	padding:0 10px
+	}
+	
+	.header .navbarBtn {
+	flex-wrap:wrap
+	}
+	
+	img.bn-short-img {
+	width:35px;
+	height:auto
+	}
+	
+	.mainBanner .bulletPoint p {
+	font-size:11px
+	}
+	
+	.testi-box {
+	height:520px
+	}
+	
+	.service-box h3 {
+	font-size:16px!important
+	}
+	
+	.Slider-Section .mainHeading {
+	font-size:20px!important
+	}
+	
+	.About-Section .secondaryHeading {
+	font-size:18px
+	}
+	
+	.About-Section .mainHeading {
+	font-size:22px!important
+	}
+	
+	.tab button {
+	width:190px
+	}
+	
+	.Payment-Section .navbarBtn {
+	flex-wrap:wrap;
+	justify-content:start
+	}
+	
+	button.navbar-btn {
+	font-size:12px;
+	padding:10px
+	}
+	
+	.lower-progress .mainHeading {
+	font-size:24px!important
+	}
+	
+	.Subjects-Box {
+	grid-template-columns:repeat(4,1fr)
+	}
+	
+	.form-label_order {
+	font-size:16px
+	}
+	
+	.OrderForm .form-control {
+	font-size:15px
+	}
+	
+	.order_summary_box {
+	font-size:15px
+	}
+	
+	.order_summary_box h4 {
+	font-size:20px
+	}
+	
+	.btn_order_previous {
+	width:20%
+	}
+	span.offer-badge {
+		font-size: 14px;
+		padding: 5px;
+	}
+	h5.fot-head-ofr span.highlight-head {
+		font-size: 35px;
+	}
+	h5.fot-head-ofr span.faplus {
+		font-size: 30px;
+	}
+	h5.fot-head-ofr {
+		font-size: 20px;
+	}
+	.navbar .logo{
+	width: 100% !important;
+	}
+	.OrderSection p.paragraph{		
+	font-size: 16px !important;	
+	}
+	p.txt_code_scan {
+	width: 40%;
+	}
+}
+	
+	@media only screen and (max-width: 1099px) {
+	.header .navbarBtn {
+	flex-wrap:wrap
+	}
+	
+	.topbar-link {
+	gap:10px
+	}
+	
+	.link {
+	gap:5px
+	}
+	.navlinks ul li a {
+		font-size: 12px;
+	}
+	}
+	
+	@media only screen and (max-width: 1024px) {
+	.topbar p.ff-tenor {
+	font-size:12px
+	}
+	}
+	
+	@media only screen and (max-width: 991px) {		
+	.flex-wrap-991{
+		flex-wrap: wrap;
+	}
+	ul.services-grid {
+	grid-template-columns: repeat(2 , 1fr);	
+	}
+	a.promo_code_bt {
+	font-size: 13px;
+	}
+	p.txt_code_scan {
+	font-size: 15px;
+	}	
+	.OrderSection p.paragraph{		
+	font-size: 15px !important;	
+	}	
+	h5.fot-head-ofr span.faplus {
+	font-size: 25px;
+	}
+	h5.fot-head-ofr {
+	font-size: 16px;
+	}		
+	h5.fot-head-ofr span.highlight-head {
+	font-size: 30px;
+	}
+	span.offer-badge {
+	font-size: 12px;
+	padding: 5px;
+	}
+	.AboutPage .Gurantee-Box {
+	grid-template-columns:repeat(3,1fr)
+	}
+	
+	.flex-wrap-wrap {
+	flex-wrap:wrap
+	}
+	
+	.topbar {
+	padding:10px 0
+	}
+	
+	.header .navbarBtn button {
+	font-size:12px;
+	padding:7px 15px
+	}
+	
+	.navlinks ul li a {
+	font-size:14px
+	}
+	
+	.mainForm {
+	width:100%
+	}
+	
+	.points .bannerPoint {
+	width:auto;
+	display:block;
+	margin:5px 0
+	}
+	
+	.bannerPoint_Para {
+	font-size:12px;
+	text-align: left;
+	}
+	
+	.points>div:not(:first-child) {
+	border-left:none
+	}
+	
+	.link a {
+	font-size:14px
+	}
+	
+	.weather p {
+	font-size:14px
+	}
+	
+	.topbar p.ff-tenor {
+	font-size:14px
+	}
+	
+	.limited_time_offer p {
+	font-size:10px
+	}
+	
+	.testi-box {
+	height:480px
+	}
+	
+	.testi-box h3 {
+	font-size:22px!important
+	}
+	
+	.testi-box p {
+	font-size:16px
+	}
+	
+	.medium-none {
+	display:none
+	}
+	
+	.medium-block {
+	display:block
+	}
+	
+	.navlinks ul {
+	display:block;
+	text-align:center
+	}
+	
+	.header .navbarBtn {
+	justify-content:center;
+	margin-top:10px
+	}
+	
+	.services-inner-dropdown {
+	left:0;
+	right:0;
+	margin:auto;
+	width:80%;
+	height:400px;
+	overflow:auto
+	}
+	
+	.services-inner-dropdown ul li {
+	text-align:left
+	}
+	
+	.PurpleBtn {
+	font-size:18px!important
+	}
+	
+	.mainBanner .secondHeading,.mainAboutSection .secondHeading,.ContactSection .secondHeading {
+	font-size:18px
+	}
+	
+	.mainBanner .mainHeading,.mainAboutSection .mainHeading,.ContactSection .mainHeading {
+	font-size:26px
+	}
+	
+	.mainAboutSection .paragraph,.lastSection p,.ContactSection p {
+	font-size:15px
+	}
+	
+	.mainBanner .secondaryHeading {
+	font-size:18px
+	}
+	
+	img.bn-short-img {
+	width:30px;
+	height:auto
+	}
+	
+	.formSubmitBtn {
+	padding-bottom:10px;
+	padding-top:10px;
+	font-size:16px
+	}
+	
+	.mainForm input,.mainForm textarea {
+	font-size:15px
+	}
+	
+	.mainForm img {
+	width:70px!important
+	}
+	
+	.Slider-Section .mainHeading {
+	font-size:18px!important
+	}
+	
+	.About-Section .secondaryHeading {
+	font-size:16px
+	}
+	
+	.About-Section .mainHeading {
+	font-size:20px!important
+	}
+	
+	.About-Section .paragraph {
+	font-size:15px!important
+	}
+	
+	.About-Section .bulletPoint p {
+	font-size:14px
+	}
+	
+	.Tabs .navbarBtn {
+	flex-wrap:wrap
+	}
+	
+	.Payment-Section img.card-img {
+	width:80%!important
+	}
+	
+	.Subject-Section h3.secondaryHeading {
+	font-size:26px!important
+	}
+	
+	.service-box h3.secondaryHeading {
+	font-size:16px!important
+	}
+	
+	.lower-progress .mainHeading {
+	font-size:22px!important
+	}
+	
+	.Gurantee-Div {
+	padding:20px
+	}
+	
+	.form_fields {
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	gap:10px 20px;
+	margin:20px
+	}
+	
+	.order_summary_box h4 {
+	font-size:18px
+	}
+	
+	.order_summary_box {
+	font-size:14px
+	}
+	
+	.form-label_order,.OrderForm .form-control {
+	font-size:15px
+	}
+	
+	.btn_order_previous {
+	width:25%;
+	height:30px;
+	font-size:15px
+	}
+	
+	.btn_order_next {
+	width:40%;
+	height:30px;
+	font-size:15px
+	}
+	
+	.policy-banner {
+	padding:60px 0
+	}
+	
+	.policy-banner h2 {
+	font-size:26px
+	}
+	
+	.policy-banner p {
+	font-size:16px
+	}
+	
+	.Slider-Section h2 {
+	font-size:20px!important
+	}
+
+	.upper-footer {
+		grid-template-columns: repeat(2,1fr);
+		gap: 20px 0px;
+	}
+
+	.lower-footer {
+		grid-template-columns: repeat(3,1fr);
+		gap: 20px;
+	}
+
+	.points{
+		flex-wrap: wrap;
+	}
+
+	.AboutPage .points {
+		flex-wrap: wrap;
+	}
+	.AboutPage .points>div:not(:first-child){
+	 border-left:none ;
+	}
+	.tab button {
+		width: 140px;
+		font-size: 13px;
+	}
+	}
+	
+	@media only screen and (max-width: 767px) {
+	div#poper{
+	display: none !important;
+	}
+	a.promo_code_bt {
+	font-size: 12px;
+	}
+	p.txt_code_scan {
+	font-size: 14px;
+	}	
+	.OrderSection p.paragraph{		
+	font-size: 14px !important;	
+	}	
+	h5.fot-head-ofr span.faplus {
+	font-size: 20px;
+	}
+	h5.fot-head-ofr {
+	font-size: 15px;
+	}		
+	h5.fot-head-ofr span.highlight-head {
+	font-size: 25px;
+	}
+	.p-20-767 {
+	padding:20px
+	}
+
+	.mt-30-767 {
+	margin-top:30px;
+	}
+
+	.points{
+		flex-wrap: nowrap;
+	}
+	
+	.topbar {
+	padding:5px 0
+	}
+	
+	.About-Img img {
+	width:60%!important
+	}
+	
+	.ContactSection {
+	padding:20px 0 40px
+	}
+	
+	.ContactSection .mainForm {
+	margin-top:20px
+	}
+	
+	.AboutPage .Gurantee-Box {
+	grid-template-columns:repeat(2,1fr)
+	}
+	
+	.testi-box {
+	height:360px;
+	padding:10px
+	}
+	
+	.testi-box h3 {
+	font-size:20px!important
+	}
+	
+	.testi-box .review p {
+	font-size:14px;
+	height:160px;
+	overflow-y:scroll
+	}
+	
+	.testi-box img {
+	width:80px !important;
+	height:80px
+	}
+	
+	.testi-box svg {
+	font-size:14px!important
+	}
+	
+	.link a {
+	font-size:13px
+	}
+	
+	.weather p {
+	font-size:14px
+	}
+	
+	img.weather_iconn {
+	width:25%;
+	max-width:25%;
+	min-width:25%
+	}
+	
+	.topbar p.ff-tenor {
+	font-size:14px
+	}
+	
+	.topbar-link {
+	display:none
+	}
+	
+	.topbar .gap-20,.topbar .gap-10 {
+	flex-wrap:wrap
+	}
+	
+	.purpleBox .bulletPoint .d-flex {
+	gap:5px!important
+	}
+	
+	.purpleBox {
+	padding:5px
+	}
+	
+	.Slider-Section .mainHeading {
+	font-size:16px!important
+	}
+	
+	.About-Section .secondaryHeading {
+	font-size:15px
+	}
+	
+	.About-Section .mainHeading {
+	font-size:18px!important;
+	margin-top:5px!important
+	}
+	
+	.Service-Section h3.mainHeading,.Subject-Section h3.mainHeading,.Gurantees-Section h3.mainHeading,.Testimonials-Section h3.mainHeading {
+	font-size:30px!important
+	}
+	
+	.Service-Section h3.secondaryHeading {
+	font-size:16px!important
+	}
+	
+	.testi-box .stars {
+	bottom:10px
+	}
+	
+	.service-box h3.secondaryHeading {
+	font-size:16px!important
+	}
+	
+	.Payment-Section {
+	background: linear-gradient(180deg,#15002b 55%,#e0e1e5 45%)!important;
+	}
+	
+	.Payment-Section img.card-img {
+	margin-top:30px
+	}
+	
+	.lower-progress img {
+	width:70%!important
+	}
+	
+	.Subject-Section h3.secondaryHeading {
+	font-size:22px!important
+	}
+	
+	.mainBanner .bulletPoint p {
+	font-size:10px;
+	text-align: left;
+	}
+	
+	.Subjects-Box,.Subjects-Box-2 {
+	grid-template-columns:repeat(3,1fr)
+	}
+	
+	.service-box h3.secondaryHeading {
+	font-size:16px!important
+	}
+	
+	.Gurantee-Box {
+	grid-template-columns:repeat(2,1fr)
+	}
+	
+	.OrderForm .row {
+	gap:20px
+	}
+	
+	.userReviews {
+	display:none
+	}
+	
+	.policy-banner {
+	padding:40px 0
+	}
+	
+	.policy-banner h2 {
+	font-size:22px
+	}
+	
+	.Slider-Section h2 {
+	font-size:18px!important
+	}
+	
+	.navlinks li {
+	width:fit-content;
+	margin:0 auto
+	}
+	
+	li.services {
+	width:100%
+	}
+	
+	.mail,.message {
+	display:none
+	}
+	
+	.message-mobile {
+	display:block
+	}
+
+	.upper-footer {
+		grid-template-columns: repeat(1,1fr);
+		gap: 20px 0px;
+	}
+
+	.lower-footer {
+		grid-template-columns: repeat(1,1fr);
+		gap: 20px;
+		padding: 0;
+
+		& a img{
+			width: 60%;
+		} 
+
+		& .paragraph{
+			font-size: 14px;
+		}
+	}
+
+	.footer{
+		padding: 20px 0px;
+	}
+
+	.upper-footer i {
+		color: #6b3489;
+		font-size: 24px;
+	}
+
+	.fixed-social-icons {
+		top: auto;
+		bottom: 60px;
+	}
+
+	.button-div h6.PurpleBtn,.button-div .expertBtn {
+		width:100%
+	}
+
+	.d-none-767{
+		display: none;
+	}
+
+	.points>div:not(:first-child) {
+		border-left: 1px solid #baaaaa;
+	}
+	.tab button {
+		width: 160px;
+	}
+
+	}
+	
+	@media only screen and (max-width: 540px) {
+	.purpleBox {
+	margin:0 auto
+	}
+	.tabs-container{
+		justify-content: center; 
+		gap: 20px;
+	}
+	}
+	
+	@media only screen and (max-width: 480px) {
+		.d-block-480{
+			display: block !important;
+		}	
+		.d-none-480{
+			display: none;
+		}	
+		.flex-wrap-480{
+			flex-wrap: wrap;
+		}	
+	.navbarBtn {
+	flex-wrap:wrap
+	}
+	
+	.mt-0-480 {
+	margin-top:0!important
+	}
+	
+	.AboutPage .Gurantee-Box {
+	grid-template-columns:repeat(1,1fr)
+	}
+	
+	.lower-progress img {
+	width:100%!important
+	}
+	
+	.About-Img img {
+	width:100%!important
+	}
+	
+	.testi-box {
+	height:370px;
+	padding:10px
+	}
+	
+	.testi-box .review p {
+	overflow:visible
+	}
+	
+	.navbar .header .navbarBtn {
+	display:grid
+	}
+	
+	.services-inner-dropdown {
+	width:90%;
+	height:280px;
+	padding: 10px;
+	}
+	
+	.tab button {
+	font-size:14px;
+	width:190px
+	}
+	
+	.rating img {
+	width:25px!important;
+	height:25px!important
+	}
+	
+	.rating-heading {
+	font-size:15px!important
+	}
+	
+	.rating-heading svg {
+	font-size:12px!important
+	}
+	
+	.Service-Section h3.mainHeading,.Subject-Section h3.mainHeading,.Gurantees-Section h3.mainHeading,.Testimonials-Section h3.mainHeading,.Order-Section h3.mainHeading,.FAQ-Section h3.mainHeading {
+	font-size:26px!important
+	}
+	
+	.lower-progress h3.mainHeading,.Gurantees-Section h3.secondaryHeading {
+	font-size:18px!important
+	}
+	
+	.Service-Section h3.secondaryHeading {
+	font-size:15px!important
+	}
+	
+	.Subject-Section h3.secondaryHeading {
+	font-size:22px!important
+	}
+	
+	.service-box h3.secondaryHeading {
+	font-size:16px!important
+	}
+	
+	.Order-Section h3.secondaryHeading {
+	font-size:18px
+	}
+	
+	.Gurantee-Div h3.secondaryHeading {
+	font-size:18px!important
+	}
+	
+	.Gurantee-Box p {
+	margin-top:10px!important
+	}
+	
+	.Testimonials-Section h3.secondaryHeading {
+	font-size:22px!important
+	}
+	
+	.lower-footer .secondaryHeading {
+	font-size:18px
+	}
+	
+	.copyright p {
+	font-size:14px
+	}
+	
+	.Gurantee-Div {
+	padding:20px;
+	height:380px
+	}
+	
+	.upper-footer p {
+	font-size:14px!important
+	}
+	
+	.service-box {
+	margin-top:20px
+	}
+	
+	.service-icon {
+	height:150px
+	}
+	
+	.service-content p {
+	height:100px
+	}
+	
+	.service-content,.service-icon {
+	padding:10px
+	}
+	
+	.d-block-480 {
+	display:block!important
+	}
+	
+	.mainBanner .purpleBox {
+	margin:0px auto;
+	width:48%
+	}
+
+	.mainBanner .purpleBox:last-child {
+		width: 100%;
+	}
+	
+	.Subjects-Box,.Subjects-Box-2 {
+	grid-template-columns:repeat(2,1fr)
+	}
+	
+	.Gurantee-Box {
+	grid-template-columns:repeat(1,1fr)
+	}
+	
+	.content-image {
+	width:20%;
+	margin:10px auto 0
+	}
+	
+	.progress-content-inner {
+	text-align:center
+	}
+
+	.topbar p.ff-tenor {
+		font-size: 14px;
+	}
+
+	.limited_time_offer p {
+		font-size: 8px;
+	}
+
+	.topbar .gap-20, .topbar .gap-10 {
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+
+	.slick-slide img {
+		width: 80%;
+	}
+
+	.testi-box img{
+	height: 80px;
+	}
+
+	.Partner-Slider .slick-slide img{
+		width: 80%;
+		height: 50px;
+	}
+
+	span.characters.r {
+		font-size: 15px;
+		top: 0px;
+	}
+
+	.navbar.medium-block .navbar-toggler{
+		width: 35px;
+	}
+
+	.container-preloader .animation-preloader .spinner{
+		margin: 0 auto 1.5em;
+	}
+
+	.container-preloader .animation-preloader .spinner {
+		height: 5em;
+		width: 5em;
+	}
+
+	}
+
+	@media only screen and (max-width : 430px) {
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.tab button {
+		width: 170px;
+	}
+	.mainBanner .mainHeading{
+		font-size: 24px;
+	}
+	}
+	
+	@media only screen and (max-width: 420px) {				
+	ul.services-grid {
+	grid-template-columns: repeat(1 , 1fr);	
+	}	
+	.Payment-Section img.card-img {
+	width: 100%!important;
+	}
+	span.offer-badge {
+	font-size: 11px;
+	padding: 3px;
+	}
+	a.promo_code_bt {
+	font-size: 11px;
+	padding: 8px;
+	}
+	p.txt_code_scan {
+	font-size: 14px;
+	}	
+	.OrderSection p.paragraph{		
+	font-size: 14px !important;	
+	}	
+	h5.fot-head-ofr span.faplus {
+	font-size: 16px;
+	}
+	h5.fot-head-ofr {
+	font-size: 14px;
+	padding-top: 10px;
+	}		
+	h5.fot-head-ofr span.highlight-head {
+	font-size: 22px;
+	}	
+	.tab button {
+	font-size:13px;
+	width:160px;
+	padding:5px
+	}
+
+	.mainForm{
+		padding: 20px 20px 30px;
+	}
+
+	.rating{
+		text-align: left;
+	}
+	
+	.rating img {
+	width:20px!important;
+	height:20px!important;
+	text-align: left !important;
+	}
+	
+	.rating img.star {
+	width: 60px!important;
+	height: auto !important;
+	}
+
+	.rating-heading {
+	font-size:13px!important
+	}
+	
+	.rating-heading svg {
+	font-size:10px!important
+	}
+	
+	h6.PurpleBtn {
+	font-size:16px!important;
+	width:fit-content;
+	padding:0 20px;
+	margin: 0 auto;
+	height: 35px;
+	}
+	
+	.mainBanner .secondHeading,.mainAboutSection .secondHeading,.ContactSection .secondHeading {
+	font-size:16px;
+	margin-bottom:0
+	}
+	
+	.mainAboutSection .paragraph,.lastSection p,.ContactSection p {
+	font-size:14px
+	}
+	
+	.mainAboutSection .mainHeading,.ContactSection .mainHeading {
+	font-size:24px
+	}
+
+	.mainBanner .mainHeading{
+		font-size: 20px;
+		margin: 5px 0px;
+	}
+	
+	.mainBanner .secondaryHeading {
+	font-size:16px
+	}
+	
+	.mainForm input,.mainForm textarea {
+	font-size:14px
+	}
+	
+	.formSubmitBtn {
+	font-size:14px
+	}
+	
+	.About-Section .mainHeading {
+	font-size:18px!important;
+	margin-top:5px!important
+	}
+	
+	.limited_time_offer {
+	padding:3px
+	}
+	
+	.weather p {
+	font-size:13px
+	}
+	
+	.Tabs p {
+	font-size:14px
+	}
+	
+	.Tabs .navbarBtn .whatsappBtn,.Tabs .navbarBtn .expertBtn,.Tabs .navbarBtn .expertBtn a {
+	font-size:15px
+	}
+	
+	.Subject-Section h3.secondaryHeading {
+	font-size:18px!important
+	}
+	
+	.service-box h3.secondaryHeading {
+	font-size:14px!important
+	}
+	
+	.Order-Section h3.mainHeading,.Payment-Section h3.mainHeading {
+	font-size:22px!important
+	}
+	
+	.Order-Section p,.Subject-Section p,.Gurantees-Section p {
+	font-size:14px!important
+	}
+	
+	s .service-content p {
+	font-size:12px!important
+	}
+	
+	.progressPoint p {
+	font-size:12px!important
+	}
+	
+	.mainBanner .purpleBox {
+	margin: 0 auto;
+	width:48%;
+	}
+	
+	.form_fields,.form_fields_2 {
+	grid-template-columns:repeat(1,1fr);
+	gap:10px;
+	margin:10px
+	}
+	
+	.topbar_mac {
+	flex-wrap:wrap;
+	gap:10px
+	}
+	
+	.btn_order_next {
+	width:50%
+	}
+	
+	.policy-banner {
+	text-align:center;
+	padding:30px 0
+	}
+	
+	.policy-banner h2 {
+	font-size:18px
+	}
+	
+	.policy-banner p {
+	font-size:14px
+	}
+	
+	.Policy_Text {
+	padding:20px 0
+	}
+	
+	.Policy_Text h3 {
+	font-size:16px
+	}
+	
+	.Policy_Text p.paragraph {
+	font-size:15px;
+	margin-top:10px
+	}
+	
+	.Slider-Section h2 {
+	font-size:16px!important
+	}
+
+	.topbar p.ff-tenor {
+		font-size: 13px;
+	}
+
+	.slick-slide img {
+		width: 90%;
+	}
+
+	.text-center-420{
+		text-align: center !important;
+	}
+
+	.tabs-container{
+		gap: 10px;
+	}
+	.question {
+		padding: 5px 40px 5px 20px;
+	}
+	.Gurantee-Div{
+		height: 350px;
+	}
+	.Gurantee-Box p {
+	height: 170px;
+	}
+}
+	
+	@media only screen and (max-width: 374px) {
+	.tab button {
+	font-size:13px;
+	width:150px;
+	padding:5px
+	}
+	}
