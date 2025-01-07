@@ -2617,7 +2617,7 @@ const AppContent = ({
                 }
               />
               <Route
-                path={`${dynamicCountry}/write-your-ebook`}
+                path={`${dynamicCountry}/write-ebook-for-you`}
                 element={
                   <WeCanWriteEBookForYou
                     city={city}
@@ -2661,7 +2661,7 @@ const AppContent = ({
                 }
               />
               <Route
-                path={`${dynamicCountry}/hire-book-writer-now`}
+                path={`${dynamicCountry}/hire-a-book-writer`}
                 element={
                   <HireaBookWriterNow
                     city={city}

@@ -950,7 +950,7 @@ const PageTitles = [
     description: `GradesUp.org provides affordable book writing services with professional writers who craft compelling, authentic, and high-quality books for every genre.`,
   },
   {
-    path: `/write-your-ebook`,
+    path: `/write-ebook-for-you`,
     title: 'We Can Write Your eBook | Gradesup.Org®',
     description: `Need help writing an eBook? Let GradesUp.org’s experts craft a unique, engaging, and high-quality eBook for you that meets your expectations.`,
   },
@@ -970,7 +970,7 @@ const PageTitles = [
     description: `Looking for reliable publishing services? GradesUp.org offers the best publishing solutions for books and eBooks, ensuring quality, reach, and affordability.`,
   },
   {
-    path: `/hire-book-writer-now`,
+    path: `/hire-a-book-writer`,
     title: 'Hire a Professional Book Writer Now  | Gradesup.Org®',
     description: `Don’t wait to start your book project! Hire professional book writers now at GradesUp.org and turn your vision into reality with ease and expertise.`,
   },

@@ -36,12 +36,34 @@ import TypingEffect from './TypingEffect';
 import PurpleCurveBtn from './PurpleCurveBtn';
 import SecondaryHeading from './SecondaryHeading';
 import Ratings from './Ratings';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
-const MainBanner = ({ changeText ,  onSubmit  , openTawkToChat , countryName , dynamicCountry } ) => {
+const MainBanner = ({ changeText, onSubmit, openTawkToChat, countryName, dynamicCountry }) => {
   const [bannerLoaded, setBannerLoaded] = useState(false);
   const [showContent, setShowContent] = useState(false);
   const [city, setCity] = useState('');
+  const [showBest, setShowBest] = useState(true); // State to control "Best" visibility
+  const [showProfessional, setShowProfessional] = useState(true); // State to control "Professional" visibility
+  const location = useLocation(); // Get the current URL
+
+  useEffect(() => {
+    // Show/hide words based on the URL
+    if (location.pathname === '/hire-book-writer-now'
+      || location.pathname === '/hire-best-ghostwriter'
+      || location.pathname === '/write-ebook-for-you'
+      || location.pathname === '/hire-publication-experts'
+      || location.pathname === '/we-can-publish-your-paper'
+      || location.pathname === '/best-thesis-publication-service'
+      || location.pathname === '/premium-publishing-services'
+      || location.pathname === '/hire-a-book-writer'
+      || location.pathname === '/best-publishing-services') {
+      setShowBest(false); // Show "Best"
+      setShowProfessional(false); // Show "Professional"
+    } else {
+      setShowBest(true); // Hide "Best"
+      setShowProfessional(true); // Hide "Professional"     
+    }
+  }, [location.pathname]); // Re-run when the URL changes
 
   useEffect(() => {
     // Retrieve the city from localStorage if available
@@ -51,75 +73,75 @@ const MainBanner = ({ changeText ,  onSubmit  , openTawkToChat , countryName , d
     }
   }, []);
 
- 
+
 
   // Images Comes from CloadFlare
 
-// const austriaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/40404211-66f6-4643-6d95-12fc39594500/compress';
-// const bannerImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/afbce8f3-fa45-4af8-b6b2-ba90fbf84000/compress';
-// const turkeyImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/0b49aff7-2eac-434f-c845-2e3312061800/compress';
-// const polandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/2d5bdb09-6ded-4e6d-6b60-716a197c7100/compress';
-// const italyImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/0f98b592-cc37-419f-7775-b7af082aa300/compress';
-// const finlandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/346cd109-6f8c-443b-90cb-c28c6424b400/compress';
-// const uaeImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/1a7a6306-e1f6-48ce-daf5-8d8cecc6c600/compress';
-// const omanImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/9992b3c8-5781-4049-69e4-abc8e62b7f00/compress';
-// const irelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f2f49e56-7165-4b67-ca83-20257f2ccd00/compress';
-// const norwayImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/48bc18ad-c7a7-4404-dea7-326f11442e00/compress';
-// const swedenImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/9ca4c6fb-18ba-49ce-8879-e6b3730e6400/compress';
-// const netherlandsImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/098e4d79-ea23-4130-77c3-a0e5f1dd0d00/compress';
-// const icelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/29e7d84c-0161-4a69-4a51-122b51390200/compress';
-// const ukImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/afbce8f3-fa45-4af8-b6b2-ba90fbf84000/compress';
-// const usaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/340376ba-1d8b-4145-4742-82d3dc9fca00/compress';
-// const ausImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/45c4b122-1931-4f3b-1001-3b76c4e3ee00/compress';
-// const newzelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f20a16b9-6c66-4a95-bf22-9881a5964900/compress';
-// const canadaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f8776baf-e635-4fed-28ee-0a59a4ce6900/compress';
+  // const austriaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/40404211-66f6-4643-6d95-12fc39594500/compress';
+  // const bannerImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/afbce8f3-fa45-4af8-b6b2-ba90fbf84000/compress';
+  // const turkeyImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/0b49aff7-2eac-434f-c845-2e3312061800/compress';
+  // const polandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/2d5bdb09-6ded-4e6d-6b60-716a197c7100/compress';
+  // const italyImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/0f98b592-cc37-419f-7775-b7af082aa300/compress';
+  // const finlandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/346cd109-6f8c-443b-90cb-c28c6424b400/compress';
+  // const uaeImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/1a7a6306-e1f6-48ce-daf5-8d8cecc6c600/compress';
+  // const omanImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/9992b3c8-5781-4049-69e4-abc8e62b7f00/compress';
+  // const irelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f2f49e56-7165-4b67-ca83-20257f2ccd00/compress';
+  // const norwayImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/48bc18ad-c7a7-4404-dea7-326f11442e00/compress';
+  // const swedenImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/9ca4c6fb-18ba-49ce-8879-e6b3730e6400/compress';
+  // const netherlandsImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/098e4d79-ea23-4130-77c3-a0e5f1dd0d00/compress';
+  // const icelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/29e7d84c-0161-4a69-4a51-122b51390200/compress';
+  // const ukImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/afbce8f3-fa45-4af8-b6b2-ba90fbf84000/compress';
+  // const usaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/340376ba-1d8b-4145-4742-82d3dc9fca00/compress';
+  // const ausImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/45c4b122-1931-4f3b-1001-3b76c4e3ee00/compress';
+  // const newzelandImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f20a16b9-6c66-4a95-bf22-9881a5964900/compress';
+  // const canadaImg = 'https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/f8776baf-e635-4fed-28ee-0a59a4ce6900/compress';
 
 
-        const country =countryName
-        const countryImage =
-        country === 'TR'
-            ? turkeyImg
-            : country === 'PL'
-            ? polandImg
-            : country === 'IT'
-            ? italyImg
-            : country === 'FI'
+  const country = countryName
+  const countryImage =
+    country === 'TR'
+      ? turkeyImg
+      : country === 'PL'
+        ? polandImg
+        : country === 'IT'
+          ? italyImg
+          : country === 'FI'
             ? finlandImg
             : country === 'UAE'
-            ? uaeImg
-            : country === 'OM'
-            ? omanImg
-            : country === 'IE'
-            ? irelandImg
-            : country === 'NO'
-            ? norwayImg
-            : country === 'SE'
-            ? swedenImg
-            : country === 'NL'
-            ? netherlandsImg
-            : country === 'AT'
-            ? austriaImg
-            : country === 'IS'
-            ? icelandImg
-            : country === 'GB'
-            ? ukImg
-            : country === 'US'
-            ? usaImg
-            : country === 'AU'
-            ? ausImg
-            : country === 'NZ'
-            ? newzelandImg
-            : country === 'CA'
-            ? canadaImg
-            : country === 'MX'
-            ? mexicanImg
-            : country === 'PK'
-            ? pakistanImg
-            : bannerImg;
-            
-            localStorage.setItem('bannerImg', countryImage);
+              ? uaeImg
+              : country === 'OM'
+                ? omanImg
+                : country === 'IE'
+                  ? irelandImg
+                  : country === 'NO'
+                    ? norwayImg
+                    : country === 'SE'
+                      ? swedenImg
+                      : country === 'NL'
+                        ? netherlandsImg
+                        : country === 'AT'
+                          ? austriaImg
+                          : country === 'IS'
+                            ? icelandImg
+                            : country === 'GB'
+                              ? ukImg
+                              : country === 'US'
+                                ? usaImg
+                                : country === 'AU'
+                                  ? ausImg
+                                  : country === 'NZ'
+                                    ? newzelandImg
+                                    : country === 'CA'
+                                      ? canadaImg
+                                      : country === 'MX'
+                                        ? mexicanImg
+                                        : country === 'PK'
+                                          ? pakistanImg
+                                          : bannerImg;
 
-  
+  localStorage.setItem('bannerImg', countryImage);
+
+
   useEffect(() => {
     const countryImage = localStorage.getItem('bannerImg') || bannerImg;
     const image = new Image();
@@ -151,26 +173,32 @@ const MainBanner = ({ changeText ,  onSubmit  , openTawkToChat , countryName , d
 
 
   return (
-<div className={`mainBanner ${bannerLoaded ? 'loaded' : ''}`}>
-    <style>
-      {`
+    <div className={`mainBanner ${bannerLoaded ? 'loaded' : ''}`}>
+      <style>
+        {`
         .mainBanner {
           background-image: url(${localStorage.getItem('bannerImg')});
         }
       `}
-    </style>
+      </style>
       <Container>
         <Row>
           <Col md={6} className='text-center-420'>
-            <PurpleCurveBtn btnText={`Professional ${changeText}`} style={firstPurpleBtn} />
+            <PurpleCurveBtn
+              btnText={`${showProfessional ? `Professional ${changeText}` : changeText}`}
+              style={firstPurpleBtn}
+            />
             <TypingEffect />
             <h1 className="mainHeading">
-              {<>Best <span className='changeText'>{changeText}</span> in {localStorage.getItem('city')}</>}
+              <>
+                {showBest && <>Best </>}
+                <span className="changeText">{changeText}</span> in {localStorage.getItem('city')}
+              </>
             </h1>
             <SecondaryHeading heading={' WE ACCEPT ALL TOPICS AND SUBJECTS.'} />
             <div className="d-flex justify-content-between mt-2 flex-wrap-wrap  button-div ">
               <Link to={`/order-form`} className='w-100'>
-              <PurpleCurveBtn btnText={'Order Now'} />
+                <PurpleCurveBtn btnText={'Order Now'} />
               </Link>
               <div className="expertBtn d-flex align-items-center w-100" onClick={openTawkToChat}>
                 <img src={chatExpert} alt={`${changeText}`} />
@@ -181,17 +209,17 @@ const MainBanner = ({ changeText ,  onSubmit  , openTawkToChat , countryName , d
               <BannerPoints img={expertImg} para="4500+ Knowledgeable Advisors" />
               <BannerPoints img={ratingImg} para="4.5 out of 5 rating from 5087 reviews." />
               <div className="d-none-767">
-              <BannerPoints img={reportImg} para="Turnitin Reports are Generated Quickly" />
+                <BannerPoints img={reportImg} para="Turnitin Reports are Generated Quickly" />
               </div>
             </div>
             <div className="d-flex justify-content-between gap-10 flex-wrap-480">
               <PurpleBox>{content}</PurpleBox>
               <PurpleBox>{content2}</PurpleBox>
               <div className="d-none-480">
-              <PurpleBox>{content3}</PurpleBox>
+                <PurpleBox>{content3}</PurpleBox>
               </div>
               <div className="d-none d-block-480 w-100">
-              <PurpleBox>{content4}</PurpleBox>
+                <PurpleBox>{content4}</PurpleBox>
               </div>
             </div>
             <div className="d-flex justify-content-between flex-wrap-wrap gap-10 mt-3 mb-3">
@@ -205,7 +233,7 @@ const MainBanner = ({ changeText ,  onSubmit  , openTawkToChat , countryName , d
             </div>
           </Col>
           <Col md={6}>
-          <Form city={city} onSubmit={onSubmit} countryName={countryName} dynamicCountry={dynamicCountry}/> {/* Pass the city state to the Form component */}
+            <Form city={city} onSubmit={onSubmit} countryName={countryName} dynamicCountry={dynamicCountry} /> {/* Pass the city state to the Form component */}
           </Col>
         </Row>
       </Container>

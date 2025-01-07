@@ -1,5 +1,5 @@
 // Home.jsx
-import React, { useState , useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import SliderSection from './components/SliderSection';
 import AboutSection from './components/AboutSection';
 import ServicesSection from './components/ServicesSection';
@@ -18,7 +18,7 @@ import maleStudent from "./assets/images/male-stud.png";
 import femaleStudent from "./assets/images/female-student-grade.png";
 import openTawkToChat from './components/openTawkToChat';
 
-const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , countryName,dynamicCountry}) => {
+const Home = ({ changeText = 'Tutoring Help', whatsappNumber, bannerLoaded, countryName, dynamicCountry }) => {
   const [city, setCity] = useState('');
 
   const aboutPara = <>Are you seeking a reliable and trusted place for online {changeText} in {localStorage.getItem('city')}? Look no further than Gradesup.org<sup>®</sup>! With 10 years of experience, we have become the go-to source for students who need guidance with their studies - giving them tailored support to succeed.</>;
@@ -35,7 +35,7 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
     }
   }, []);
 
-  
+
 
   const navigate = useNavigate(); // Use the useNavigate hook for programmatic navigation
 
@@ -46,9 +46,9 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
     navigate(`${dynamicCountry}/thankyou`);
   };
 
-    // User Reviews
+  // User Reviews
 
-  
+
   const [areReviewsVisible, setReviewsVisibility] = useState(true);
   const closeReview = () => {
     setReviewsVisibility(false);
@@ -68,7 +68,7 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
           Got 90% Marks in Their <br />Last Semester Project
         </>
       ),
-      img:femaleStudent,
+      img: femaleStudent,
     },
     {
       id: 2,
@@ -83,7 +83,7 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
           Got 90% Marks in Their <br />Last Semester Project
         </>
       ),
-      img:maleStudent,
+      img: maleStudent,
     },
     // Add more review objects if needed
   ];
@@ -101,8 +101,8 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
 
   return (
     <>
-     <City />
-    <MainBanner changeText={changeText} bannerLoaded={bannerLoaded}  formText={formText} onSubmit={handleFormSubmit} openTawkToChat={openTawkToChat} countryName={countryName} dynamicCountry={dynamicCountry}/>
+      <City />
+      <MainBanner changeText={changeText} bannerLoaded={bannerLoaded} formText={formText} onSubmit={handleFormSubmit} openTawkToChat={openTawkToChat} countryName={countryName} dynamicCountry={dynamicCountry} />
       <SliderSection countryName={countryName} changeText={changeText} openTawkToChat={openTawkToChat} />
       <AboutSection city={city} changeText={changeText} aboutPara={aboutPara} aboutHeading={aboutHeading} openTawkToChat={openTawkToChat} />
       <ServicesSection city={city} whatsappNumber={whatsappNumber} openTawkToChat={openTawkToChat} changeText={changeText} dynamicCountry={dynamicCountry} />
@@ -113,29 +113,29 @@ const Home = ({ changeText = 'Tutoring Help' , whatsappNumber , bannerLoaded , c
       <GuranteesSection city={city} changeText={changeText} openTawkToChat={openTawkToChat} />
       <FAQSection city={city} whatsappNumber={whatsappNumber} changeText={changeText} openTawkToChat={openTawkToChat} />
       <TestimonialsSection changeText={changeText} />
-            {/* User Reviews */}
-            {areReviewsVisible && (
-          <div className="userReviews">
-            <div className="reviews">
-              <img src={reviewsData[currentReviewIndex].img} width='35px' alt="" />
-              <div className="d-flex">
-                <i className="fa fa-times-circle text-danger" onClick={closeReview}></i>
-                <h5>{reviewsData[currentReviewIndex].name}</h5>
-                <p>
-                  {reviewsData[currentReviewIndex].firstMessage}
-                </p>
-                <h6>
-                  {reviewsData[currentReviewIndex].secondMessage}
-                  </h6>
-                  <img
+      {/* User Reviews */}
+      {areReviewsVisible && (
+        <div className="userReviews">
+          <div className="reviews">
+            <img src={reviewsData[currentReviewIndex].img} width='35px' alt="" />
+            <div className="d-flex">
+              <i className="fa fa-times-circle text-danger" onClick={closeReview}></i>
+              <h5>{reviewsData[currentReviewIndex].name}</h5>
+              <p>
+                {reviewsData[currentReviewIndex].firstMessage}
+              </p>
+              <h6>
+                {reviewsData[currentReviewIndex].secondMessage}
+              </h6>
+              <img
                 src={rating}
                 alt="stars"
                 className='star'
                 width='80px'
               />
-              </div>
             </div>
           </div>
+        </div>
       )}
       {/* User Reviews End */}
     </>
