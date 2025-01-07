@@ -9,7 +9,7 @@ const OrderForm = ({ city, onSubmit, countryName }) => {
   const paymentImg =
     "https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/1cb30f5d-c669-4d87-315d-50670470c800/compress";
   const [ppp, setPpp] = useState(20.0);
-  const [additionalPrice, setAdditionalPrice] = useState(-12);
+  const [additionalPrice, setAdditionalPrice] = useState(-10);
   const [country, setCountry] = useState("GB");
   const [userCountry, setUserCountry] = useState("");
   const [CountryName, setCountryName] = useState("");
