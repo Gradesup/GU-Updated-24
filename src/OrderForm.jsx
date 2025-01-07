@@ -9,7 +9,7 @@ const OrderForm = ({ city, onSubmit, countryName }) => {
   const paymentImg =
     "https://imagedelivery.net/f8i7SP6RXV9zJA_aQg2EIw/1cb30f5d-c669-4d87-315d-50670470c800/compress";
   const [ppp, setPpp] = useState(20.0);
-  const [additionalPrice, setAdditionalPrice] = useState(-8);
+  const [additionalPrice, setAdditionalPrice] = useState(-12);
   const [country, setCountry] = useState("GB");
   const [userCountry, setUserCountry] = useState("");
   const [CountryName, setCountryName] = useState("");
@@ -18,10 +18,10 @@ const OrderForm = ({ city, onSubmit, countryName }) => {
   const [punit, setPunit] = useState("gbp");
   const [orderFiles, setOrderFiles] = useState([]);
   const [pricePerPage, setPricePerPage] = useState(ppp);
-  const [paperStandard, setPaperStandard] = useState("Premium Quality");
+  const [paperStandard, setPaperStandard] = useState("Standard Quality");
   const [paperFormat, setPaperFormat] = useState("Double Standard");
-  const [pages, setPages] = useState("3");
-  const [deadline, setDeadline] = useState("3 Days");
+  const [pages, setPages] = useState("1");
+  const [deadline, setDeadline] = useState("10 Days");
   const [showValidation, setShowValidation] = useState(false);
   const [userName, setUserName] = useState("");
   const [userEmail, setUserEmail] = useState("");
@@ -156,10 +156,10 @@ const OrderForm = ({ city, onSubmit, countryName }) => {
   };
 
   const [selectedOption, setSelectedOption] = useState({
-    wordcount: 900,
-    price: 3,
-    value: "3",
-    label: "3 Pages / 900 Words",
+    wordcount: 300,
+    price: 1,
+    value: "1",
+    label: "1 Pages / 300 Words",
   });
 
   const handleDeadlineChange = (event) => {

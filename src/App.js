@@ -211,6 +211,21 @@ import AcademicWritingHelp from "./inner-pages/AcademicWritingHelp";
 import AcademicHelpServices from "./inner-pages/AcademicHelpServices";
 import AcademicHelpForStudents from "./inner-pages/AcademicHelpForStudents";
 import AcademicWritingService from "./inner-pages/AcademicWritingService";
+import EbookWritingExpert from "./inner-pages/EbookWritingExpert";
+import BookWritingServices from "./inner-pages/BookWritingServices";
+import BesteBookWriter from "./inner-pages/BesteBookWriter";
+import BookWritingService from "./inner-pages/BookWritingService";
+import WeCanWriteEBookForYou from "./inner-pages/WeCanWriteEBookForYou";
+import ProfessionalBookWriters from "./inner-pages/ProfessionalBookWriters";
+import PremiumPublishingServices from "./inner-pages/PremiumPublishingServices";
+import BestPublishingServices from "./inner-pages/BestPublishingServices";
+import HireaBookWriterNow from "./inner-pages/HireaBookWriterNow";
+import HireBestGhostwriterNow from "./inner-pages/HireBestGhostwriterNow";
+import GhostwritingServices from "./inner-pages/GhostwritingServices";
+import ArticlePublishingService from "./inner-pages/ArticlePublishingService";
+import HirePublicationExperts from "./inner-pages/HirePublicationExperts";
+import BestThesisPublicationService from "./inner-pages/BestThesisPublicationService";
+import WeCanPublishYourPaper from "./inner-pages/WeCanPublishYourPaper";
 
 const App = () => {
   const [city, setCity] = useState("");
@@ -2550,13 +2565,178 @@ const AppContent = ({
               path={`${dynamicCountry}/online-assignment`}
               element={
                 <OnlineAssignment
-                  city={city}
-                  whatsappNumber={whatsappNumber}
-                  countryName={countryName}
-                  dynamicCountry={dynamicCountry}
+                city={city}
+                whatsappNumber={whatsappNumber}
+                countryName={countryName}
+                dynamicCountry={dynamicCountry}
                 />
               }
             />
+            <Route
+              path={`${dynamicCountry}/ebook-writing-expert`}
+              element={
+                <EbookWritingExpert
+                city={city}
+                whatsappNumber={whatsappNumber}
+                countryName={countryName}
+                dynamicCountry={dynamicCountry}
+                />
+              }
+            />
+              <Route
+                path={`${dynamicCountry}/book-writing-services`}
+                element={
+                  <BookWritingServices
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/best-ebook-writer`}
+                element={
+                  <BesteBookWriter
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/book-writing-service`}
+                element={
+                  <BookWritingService
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/write-your-ebook`}
+                element={
+                  <WeCanWriteEBookForYou
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/professional-book-writers`}
+                element={
+                  <ProfessionalBookWriters
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/premium-publishing-services`}
+                element={
+                  <PremiumPublishingServices
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/best-publishing-services`}
+                element={
+                  <BestPublishingServices
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/hire-book-writer-now`}
+                element={
+                  <HireaBookWriterNow
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/hire-best-ghostwriter`}
+                element={
+                  <HireBestGhostwriterNow
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/ghostwriting-services`}
+                element={
+                  <GhostwritingServices
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/article-publishing-service`}
+                element={
+                  <ArticlePublishingService
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/hire-publication-experts`}
+                element={
+                  <HirePublicationExperts
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/best-thesis-publication-service`}
+                element={
+                  <BestThesisPublicationService
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
+              <Route
+                path={`${dynamicCountry}/we-can-publish-your-paper`}
+                element={
+                  <WeCanPublishYourPaper
+                    city={city}
+                    whatsappNumber={whatsappNumber}
+                    countryName={countryName}
+                    dynamicCountry={dynamicCountry}
+                  />
+                }
+              />
           </Routes>
         </>
       )}

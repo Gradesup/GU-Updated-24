@@ -929,6 +929,86 @@ const PageTitles = [
     title: 'Best Online Assignment Help | Gradesup.Org®',
     description: `Streamline your academic journey with our Online Assignment solutions at Gradesup.org. Our platform offers convenient and expert support to help you conquer your assignments. From timely submissions to top-quality work, we've got you covered. Explore Gradesup.org for hassle-free online assignment assistance today.`,
   },
+  {
+    path: `/ebook-writing-expert`,
+    title: 'Ebook Writing Expert for High-Quality and Authentic Content | Gradesup.Org®',
+    description: `Looking for an expert to write your ebook? GradesUp.org offers professional ebook writing services to help you create engaging and authentic content at affordable prices.`,
+  },
+  {
+    path: `/book-writing-services`,
+    title: 'Professional Book Writing Services for Every Genre | Gradesup.Org®',
+    description: `Unlock your book's potential with GradesUp.org! Our professional book writing services deliver captivating and customized content tailored to your unique vision.`,
+  },
+  {
+    path: `/best-ebook-writer`,
+    title: 'Hire the Best eBook Writer for Unique Content | Gradesup.Org®',
+    description: `Get top-notch eBook writing services by hiring the best eBook writers at GradesUp.org. We specialize in delivering creative, high-quality, and plagiarism-free content.`,
+  },
+  {
+    path: `/book-writing-service`,
+    title: 'Affordable Book Writing Service | Gradesup.Org®',
+    description: `GradesUp.org provides affordable book writing services with professional writers who craft compelling, authentic, and high-quality books for every genre.`,
+  },
+  {
+    path: `/write-your-ebook`,
+    title: 'We Can Write Your eBook | Gradesup.Org®',
+    description: `Need help writing an eBook? Let GradesUp.org’s experts craft a unique, engaging, and high-quality eBook for you that meets your expectations.`,
+  },
+  {
+    path: `/professional-book-writers`,
+    title: 'Professional Book Writers for Hire  | Gradesup.Org®',
+    description: `Hire professional book writers at GradesUp.org to bring your story or idea to life. Affordable, authentic, and expertly written books tailored to your needs.`,
+  },
+  {
+    path: `/premium-publishing-services`,
+    title: 'Premium Publishing Services for Authors | Gradesup.Org®',
+    description: `Publish your book with GradesUp.org’s premium publishing services. From editing to distribution, we ensure a seamless publishing experience for authors.`,
+  },
+  {
+    path: `/best-publishing-services`,
+    title: 'Best Publishing Services for Books and eBooks | Gradesup.Org®',
+    description: `Looking for reliable publishing services? GradesUp.org offers the best publishing solutions for books and eBooks, ensuring quality, reach, and affordability.`,
+  },
+  {
+    path: `/hire-book-writer-now`,
+    title: 'Hire a Professional Book Writer Now  | Gradesup.Org®',
+    description: `Don’t wait to start your book project! Hire professional book writers now at GradesUp.org and turn your vision into reality with ease and expertise.`,
+  },
+  {
+    path: `/hire-best-ghostwriter`,
+    title: 'Hire the Best Ghostwriter Now | Gradesup.Org®',
+    description: `Looking for an expert ghostwriter? GradesUp.org provides professional ghostwriting services to help you create compelling and high-quality content discreetly.`,
+  },
+  {
+    path: `/ghostwriting-services`,
+    title: 'Professional Ghostwriting Services for Books and Articles | Gradesup.Org®',
+    description: `GradesUp.org offers professional ghostwriting services for authors, businesses, and academics. Let our expert writers bring your ideas to life effortlessly.`,
+  },
+  {
+    path: `/article-publishing-service`,
+    title: 'Article Publishing Service for Authors | Gradesup.Org®',
+    description: `Publish your articles with ease! GradesUp.org offers reliable and professional article publishing services to ensure your work reaches the right audience.`,
+  },
+  {
+    path: `/hire-publication-experts`,
+    title: 'Hire Publication Experts | Gradesup.Org®',
+    description: `Need help publishing your book or paper? Hire publication experts at GradesUp.org to handle your publishing process from start to finish professionally.`,
+  },
+  {
+    path: `/hire-publication-experts`,
+    title: 'Hire Publication Experts | Gradesup.Org®',
+    description: `Need help publishing your book or paper? Hire publication experts at GradesUp.org to handle your publishing process from start to finish professionally.`,
+  },
+  {
+    path: `/best-thesis-publication-service`,
+    title: 'Best Thesis Publication Service | Gradesup.Org®',
+    description: `Publish your thesis with GradesUp.org’s expert thesis publication services. Affordable, reliable, and designed to ensure your work gets recognized globally.`,
+  },
+  {
+    path: `/we-can-publish-your-paper`,
+    title: 'Publish Your Paper with Professional Services | Gradesup.Org®',
+    description: `GradesUp.org provides expert assistance to publish your research paper seamlessly. Let us handle the process while you focus on your academic goals.`,
+  },
 ];
 
 
