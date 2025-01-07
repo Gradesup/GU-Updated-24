@@ -188,15 +188,15 @@ const OrderForm = ({ city, onSubmit, countryName }) => {
 
   useEffect(() => {
     const countryData = {
-      IE: { psymbol: "€", ppp: 18.0, punit: "eur" },
-      AU: { psymbol: "$", ppp: 18.0, punit: "aud" },
-      GB: { psymbol: "£", ppp: 18.0, punit: "gbp" },
-      NL: { psymbol: "€", ppp: 18.0, punit: "eur" },
-      NO: { psymbol: "€", ppp: 18.0, punit: "eur" },
-      NZ: { psymbol: "$", ppp: 18.0, punit: "nzd" },
-      OM: { psymbol: "$", ppp: 18.0, punit: "usd" },
-      AE: { psymbol: "$", ppp: 18.0, punit: "usd" },
-      US: { psymbol: "$", ppp: 18.0, punit: "usd" },
+      IE: { psymbol: "€", ppp: 20.0, punit: "eur" },
+      AU: { psymbol: "$", ppp: 20.0, punit: "aud" },
+      GB: { psymbol: "£", ppp: 20.0, punit: "gbp" },
+      NL: { psymbol: "€", ppp: 20.0, punit: "eur" },
+      NO: { psymbol: "€", ppp: 20.0, punit: "eur" },
+      NZ: { psymbol: "$", ppp: 20.0, punit: "nzd" },
+      OM: { psymbol: "$", ppp: 20.0, punit: "usd" },
+      AE: { psymbol: "$", ppp: 20.0, punit: "usd" },
+      US: { psymbol: "$", ppp: 20.0, punit: "usd" },
     };
     // const countryData = {
     //   IE: { psymbol: "€", ppp: 23.83, punit: "eur" },
