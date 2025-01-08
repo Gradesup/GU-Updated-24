@@ -2677,3 +2677,6 @@ p.txt_code_scan
 {
 	font-size:16px
 }
+.cky-btn-revisit-wrapper.cky-revisit-bottom-left {
+    display: none !important;
+}

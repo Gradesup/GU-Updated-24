@@ -23,6 +23,7 @@ const Header = ({whatsappNumber , openTawkToChat,dynamicCountry }) => {
   };
   
   const domain = 'https://gradesup.org';
+
   
   const clearTags = (tagName, attributeName, attributeValue) => {
     const elements = document.getElementsByTagName(tagName);

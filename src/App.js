@@ -280,6 +280,9 @@ const App = () => {
   useEffect(() => {
     fetchCity();
   }, []);
+  
+  <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/7b4ce39cba1517e13ec6965f/script.js"></script> 
+
 
   return (
     <Router>

@@ -15,6 +15,7 @@ const RefundPolicy = () => {
     'Credit/debit card information',
   ]
 
+
   return (
     <>
       <PolicyBanner text={'PRIVACY POLICY'} bannerIcon={'fa fa-shield'} />
@@ -44,6 +45,16 @@ const RefundPolicy = () => {
           <Paragraph paragraph={<>
             We follow your cookie trail. We use cookies to enable us to gather data about website interaction and website traffic so that we give our clients the best site experiences. We also give you an option to turn off all cookies through your browser settings. We assure you that we do not collect your personal information via cookies.
           </>} />
+          <SecondaryHeading heading={'Opt-Out Instructions'} />
+          <Paragraph paragraph={<>
+            You have the right to opt out of certain uses and disclosures of your personal information. Below are the methods you can use to exercise your opt-out rights:
+          </>} />
+          <div className="Policy_BulletsPoints">
+          Email Marketing: If you no longer wish to receive marketing emails from us, you can opt out by clicking the “unsubscribe” link at the bottom of any marketing email you receive from us. Alternatively, you can contact us at <a  href="mailto:support@gradesup.org" >support@gradesup.org</a>  to request removal from our mailing list.
+          </div>
+          <div className="Policy_BulletsPoints">
+          Cookies and Tracking Technologies: You can manage your cookie preferences through our Cookie Consent Tool available on our website. You can also set your browser to refuse cookies or alert you when cookies are being sent. Please note that if you disable cookies, some features of our website may not function properly.
+          </div>
           <SecondaryHeading heading={'Consent'} />
           <Paragraph paragraph={<>
             We may offer you a chance to participate in the challenges on our website. If you take an interest, we will request some particular data from you. The required information includes contact information (for Gradesup.org<sup>®</sup> name and shipping address of the customer), and demographic information (such as zip code).
