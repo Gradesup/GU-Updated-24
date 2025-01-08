@@ -50,7 +50,7 @@ const ServicesTabs = ({city , openTawkToChat , whatsappNumber , changeText , dyn
           <div className="tabs-container">
           {/* ${dynamicCountry} */}
             {tabs.map((tab, index) => (
-              <Link id={'p'+ index} to={`${dynamicCountry}${tab.link}`}>
+              <Link key={index} id={'p'+ index} to={`${dynamicCountry}${tab.link}`}>
               <div
                 key={index}
                 className={`tab ${index == localStorage.getItem('btn') ? 'active' : ''}`}

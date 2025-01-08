@@ -249,11 +249,12 @@ const App = () => {
       const userIp = data.ip;
 
       // Fetch location data based on the IP address
-      const locationResponse = await fetch(`https://ipapi.co/${userIp}/json/`);
+      // const locationResponse = await fetch(`https://ipapi.co/${userIp}/json/`);
+      const locationResponse = await fetch(`https://pro.ip-api.com/json/${userIp}?key=kHg84ht9eNasCRN`);
       const locationData = await locationResponse.json();
 
       let fetchedCity = locationData.city || "London"; // Set default value
-      let fetchedCountry = locationData.country || "GB"; // Set default value
+      let fetchedCountry = locationData.countryCode || "GB"; // Set default value
       let fetchedCountryName = locationData.country_name || "United Kingdom"; // Set default value
 
       // Store the city and country in local storage
