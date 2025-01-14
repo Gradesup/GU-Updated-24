@@ -53,7 +53,7 @@ const CountryPhone = ({ countryName , children , dynamicCountry  }) => {
     return (
 <div>
 {children({
-whatsappNumber: `${country.whatsapp_number}?text=Hi Gradesup, I am looking for ${location.pathname !== `/` && location.pathname !== dynamicCountry && location.pathname !== `${dynamicCountry}/` && !location.pathname.includes('policy') && !location.pathname.includes('policy') && !location.pathname.includes('conditions') && !location.pathname.includes('about') && !location.pathname.includes('contact') && !location.pathname.includes('form') && !location.pathname.includes('offers') && !location.pathname.includes('thankyou')  ? location.pathname.includes('help') ? unslugify(location.pathname) : unslugify(location.pathname) + ' Help' : "Tutoring Help"}.`,
+whatsappNumber: `${country.whatsapp_number}?text=Hi Gradesup, I Need Quick Academic Support. Could You Help Me Finish My Task Before The Deadline?`,
 telNumber: country.tel_number,
 })}
 </div>
